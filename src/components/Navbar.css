@@ -1,0 +1,92 @@
+.Navbar__navbar{
+    background-color: #f4f9f9;
+}
+.Navbar__list{
+    padding-left: 4rem;
+}
+.Navbar__logo{
+    padding: 2rem;
+    letter-spacing: 0.5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px ;
+}
+.Navbar__item{
+    padding-right: 2.5rem;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.Navbar__item-signup{
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding-right: 2.5rem;
+    padding-left: 2rem;
+}
+.Navbar__item-student-register{
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.Navbar__item-login{
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    
+}
+.Navbar__nav-svg{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+   
+}
+/*For mobile use*/
+@media screen and (max-width: 576px){
+    .Navbar__item{
+        font-size: 13px;
+    }
+    .Navbar__list{
+        padding-left: 1rem;
+    }
+    .Navbar__item-signup{
+        padding-left: 0rem;
+        font-size: 13px;
+    }
+    .Navbar__item-login{
+        font-size: 13px;
+    }
+    .Navbar__nav-svg{
+        height: 15px;
+        width: 15px;
+    }
+    .Navbar__logo{
+        padding:1rem ;
+    }
+}
+/*For small and medium devices*/
+@media (min-width:576px) and (max-width: 800px){
+    .Navbar__list{
+        padding-left: 2rem;
+    }
+    .Navbar__item-signup{
+        padding-left: 0rem;
+    }
+}
+/*For medium and large devices*/
+@media(min-width:800px) and (max-width: 1200px){
+    .Navbar__list{
+        padding-left: 0rem;
+    }
+    .Navbar__item{
+        padding-right: 1rem;
+    }
+    .Navbar__item-signup{
+        padding-right: 0.5rem;
+        padding-left: 0rem;
+    }
+}

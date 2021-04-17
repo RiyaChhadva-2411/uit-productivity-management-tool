@@ -1,0 +1,206 @@
+.Signup__image{
+    width: 700px;
+    height: 650px;
+    margin-top: 70px;
+    margin-left: 0px;
+}
+.Signup__row{
+    height: 100vh;
+} 
+.Signup__column{
+    background-color: #CBC3E3;
+}
+.Signup__Form{
+    padding-left: 30px;
+    padding-top: 50px;    
+}
+
+.Signup__heading{
+    padding-top: 150px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: 	#4B0082;
+    margin-left: 30px;
+}
+.form-control{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color:#4B0082;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #CADEEF;
+    border-radius: .50rem;
+    transition: 'border-color' .15s ease-in-out, box-shadow .15s ease-in-out;
+    box-sizing: border-box;
+}
+.Signup__dmrow{
+    margin-bottom: 40px;
+}
+.Signup__SubmitButton{
+    background-color: #4B0082;
+    color: #ffffff;
+    width: 150px;
+    padding: 10px 10px 10px 10px ;
+    border-radius: 20px;
+}
+.Signup__SaveButton{
+    background-color: #4B0082;
+    color: #ffffff;
+    width: 150px;
+    padding: 10px 10px 10px 10px ;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+.Signup__SubmitButton :hover{
+    color: #ffffff;
+}
+.Signup__form-submit{
+    margin-top: 30px;
+  margin-left: 23%;
+}
+span{
+    padding: .375rem 1rem;
+    pointer-events: none;
+    position: absolute;
+    top:0;
+    left:0;
+    line-height: 1.5;
+    font-size: 16px;
+    color:#4B0082;
+    transition: 0.2s;
+    transition-timing-function: ease;
+    transition-timing-function: cubic-bezier(0.25,0.1,0.25,1);
+    opacity:0.8;
+}
+input:focus + span, input:not(:placeholder-shown)+ span{
+    opacity:1;
+    transform: scale(0.75) translateY(-80%) translateX(-18px);
+    background-color:  #CBC3E3;
+    color: #4B0082;
+    padding: .175rem 0.5rem;
+}
+textarea:focus + span, textarea:not(:placeholder-shown) + span {
+    opacity:1;
+    transform: scale(0.8) translateY(-80%) translateX(-1px);
+    background-color:  #CBC3E3;
+    color: #4B0082;
+    padding: .175rem 0.5rem;
+}
+.Signup__svg-column{
+    height: 100vh;
+}
+/*For mobile use*/
+@media screen and (max-width: 576px){
+    .Signup__image{
+        width: 306px;
+        height: 380px;
+        margin-top: 50px;
+        margin-left: 15px;
+    }
+    .Signup__heading{
+        padding-top: 50px;
+        font-size: 27px;
+        margin-left: 20px;
+    }
+    .form-control{
+        margin-bottom: 15px;
+    }
+    span{
+        font-size: 14px;
+    }
+    .Signup__Form{
+        padding-left: 0px;
+        padding-top: 35px;
+    }
+    .Signup__SaveButton{
+        width: 100px;
+        margin-right: 20px;
+    }
+    .Signup__SubmitButton{
+        width: 100px;
+    }
+    .Signup__form-submit{
+        margin-top: 0px;
+        margin-left: 19%;
+        margin-bottom: 50px;
+    }
+    .Signup__svg-column{
+        height: 50vh;
+    }
+}
+/*For small and medium devices*/
+@media(min-width: 576px) and (max-width:800px){
+    .Signup__image{
+        width: 400px;
+        height: 400px;
+        margin-top: 140px;
+        margin-left: -20px;
+    }
+    .Signup__heading{
+        padding-top: 123px;
+        font-size: 31px;
+        margin-left: 10px;
+    }
+    .Signup__Form{
+        padding-left: 0px;
+        padding-top: 50px;
+    }
+    span{
+        font-size: 12px;
+        line-height: 1.2;
+    }
+    .Signup__SaveButton{
+        width: 100px;
+        margin-right: 15px;
+    }
+    .Signup__SubmitButton{
+        width: 100px;
+    }
+    .Signup__form-submit{
+        margin-top: 7px;
+        margin-left: 20%;
+    }
+    .Signup__svg-column{
+        height: 100vh;
+    }
+}
+/*For medium and large devices*/
+@media(min-width:800px) and (max-width:1200px){
+    .Signup__image{
+        width: 500px;
+        height: 500px;
+        margin-top:70px;
+        margin-left: 0px;
+    }
+    .Signup__heading{
+        padding-top: 109px;
+        font-size: 34px;
+        margin-left: 15px;
+    }
+    .Signup__Form{
+        padding-left: 5px;
+        padding-top: 40px;
+    }
+    span{
+        font-size: 14px;
+        line-height: 1.1;
+    }
+    .Signup__SaveButton{
+        width: 130px;
+        margin-right: 20px;
+    }
+    .Signup__SubmitButton{
+        width: 130px;
+    }
+    .Signup__form-submit{
+        margin-left: 20%;
+        margin-top: 20px;
+    }
+    .Signup__svg-column{
+        height: 50vh !important;
+    }
+}

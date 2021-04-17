@@ -1,0 +1,153 @@
+.Student__image{
+    width: 800px;
+    height: auto;
+}
+.Student__row{
+    height: 100vh;
+}
+.Student__svg{
+    margin-top: 0px;
+    margin-left: -40px;
+}
+.Student__Hello-heading{
+    margin-top: 50px;
+    margin-left: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size:36px;
+    font-weight: 600;
+    color:#000080;
+}
+.Student__heading{
+    margin-top: 50px;
+    margin-left: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size:36px;
+    font-weight: 600;
+    color:#000080;
+}
+.Student__Subject-heading{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 18px;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+.Student__svg-column2{
+    background-color: #bbe1fa;
+}
+.StudentReg__Form{
+    margin-top: 10px;
+}
+.Student__property{
+    margin-left: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #000080;
+}
+.Student__Subject{
+    width: 50% !important;
+    height: calc(1.2em + .75rem + 6px) !important;
+    border: none !important;
+    background-color: #bbe1fa !important;
+    margin-left: 20px !important;
+    margin-top: -8px !important;
+    font-size: 16px !important;
+    font-family: 'Poppins', sans-serif !important;
+    color: #000000;
+}
+.Student__Subject-time{
+    width: 20% !important;
+    height: calc(1.2em + .75rem + 6px) !important;
+    border: none !important;
+    background-color: #bbe1fa !important;
+    margin-left: 20px !important;
+    margin-top: -8px !important;
+    font-size: 16px !important;
+    font-family: 'Poppins', sans-serif !important;
+    color: #000000;
+}
+.Student__Form{
+    margin-bottom: 10px;
+}
+.Student__Time-allocation{
+    margin-top: 10px;
+}
+.Student__Time{
+    margin-bottom: 10px;
+}
+.Student__Submit-row{
+    margin-top: 30px;
+    align-items: center !important;
+    justify-content: center !important;
+    
+}
+.Student__Submit-Button{
+   color: #FFFFFF;
+   background-color: #000080;
+   border-radius: 20px;
+   width: 20%;
+   margin-bottom: 50px;
+}
+
+/*For mobile use only*/
+@media screen and (max-width:576px){
+    .Student__image{
+        width: 385px;
+        height: auto;
+        margin-left: 0px;
+        margin-right: auto;
+    }
+    .Student__Hello-heading{
+        margin-left: 0px;
+        font-size: 27px;
+        text-align: center;
+    }
+    .Student__heading{
+        margin-left:0px ;
+        font-size: 27px;
+        text-align: center;
+    }
+    .Student__Subject-heading{
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .Student__property{
+        margin-left: 14px;
+        font-size: 15px;
+    }
+    .Student__Subject{
+        font-size: 15px;
+    }
+    .Student__Submit-Button{
+        width: 30%;
+    }
+}
+
+/*For small and medium devices*/
+@media(min-width: 576px) and (max-width: 800px){
+    .Student__image{
+        width: 426px;
+    }
+    .Student__Hello-heading{
+        font-size: 30px;
+    }
+    .Student__heading{
+        font-size: 30px;
+    }
+    .Student__Subject-heading{
+        font-size: 15px;
+    }
+    .Student__property{
+        font-size: 15px;
+    }
+
+}
+
+/*For medium and large devices*/
+@media(min-width:800px) and (max-width: 1200px){
+    .Student__image{
+        width: 539px;
+        height: auto;
+    }
+
+}

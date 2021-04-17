@@ -1,0 +1,210 @@
+.Login__image{
+    width: 800px;
+    height: 600px;
+    margin-top: 70px;
+    margin-left: -20px;
+}
+.Login__column{
+    /* background-color: #f6dfeb; */
+    background-color: #ffefb2;
+}
+.Login__Form{
+    margin-left: 30%;
+    padding-top: 50px;    
+}
+
+.Login__heading{
+    padding-top: 200px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: #31326f;
+    margin-left: 40%;
+}
+.Login__form-control{
+    display: block !important;
+    width: 170% !important;
+    padding: .375rem .75rem !important;
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+    color:#31326f !important;
+    background-color: #fff !important;
+    background-clip: padding-box !important;
+    border: 1px solid #CADEEF !important;
+    border-radius: .50rem !important;
+    transition: 'border-color' .15s ease-in-out, box-shadow .15s ease-in-out !important;
+    box-sizing: border-box !important;
+}
+.Login__dmrow{
+    margin-bottom: 40px;
+}
+.Login__SubmitButton{
+    background-color: #31326f;
+    color: #ffffff;
+    width: 150px;
+    padding: 10px 10px 10px 10px ;
+    border-radius: 20px;
+}
+/* .Login__SaveButton{
+    background-color: #763857;
+    color: #ffffff;
+    width: 150px;
+    padding: 10px 10px 10px 10px ;
+    border-radius: 20px;
+    margin-right: 50px;
+} */
+.Login__SubmitButton :hover{
+    color: #ffffff;
+}
+.Login__form-submit{
+    margin-top: 0px;
+  margin-left: 15%;
+}
+.Login__span{
+    padding: .375rem 1rem;
+    pointer-events: none;
+    position: absolute;
+    top:0;
+    left:0;
+    line-height: 1.5;
+    font-size: 16px;
+    color:#31326f;
+    transition: 0.2s;
+    transition-timing-function: ease;
+    transition-timing-function: cubic-bezier(0.25,0.1,0.25,1);
+    opacity:0.8;
+}
+input:focus + span, input:not(:placeholder-shown)+ span{
+    opacity:1;
+    transform: scale(0.75) translateY(-80%) translateX(-18px);
+    background-color:  #ffefb2;
+    color: #31326f;
+    padding: .175rem 0.5rem;
+}
+textarea:focus + span, textarea:not(:placeholder-shown) + span {
+    opacity:1;
+    transform: scale(0.8) translateY(-80%) translateX(-1px);
+    background-color:  #ffefb2;
+    color: #31326f;
+    padding: .175rem 0.5rem;
+}
+.Login__svg-column{
+    height: 100vh;
+}
+/*For mobile use*/
+@media screen and (max-width: 576px){
+    .Login__image{
+        width: 340px;
+        height: 340px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .Login__heading{
+        padding-top: 50px;
+        font-size: 27px;
+        margin-left: 38%;
+    }
+    .Login__form-control{
+        margin-bottom: 15px !important;
+        width: 100% !important;
+    }
+    .Login__span{
+        font-size: 14px;
+    }
+    .Login__Form{
+        padding-left: 0px;
+        padding-top: 35px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .Login__SaveButton{
+        width: 100px;
+        margin-right: 20px;
+    }
+    .Login__SubmitButton{
+        width: 100px;
+    }
+    .Login__form-submit{
+        margin-top: 0px;
+        margin-left: 35%;
+        margin-bottom: 30vh;
+    }
+    .Login__svg-column{
+        height: 50vh;
+    }
+    .Login__dmrow{
+        margin-bottom: 10px;
+    }
+}
+/*For small and medium devices*/
+@media(min-width: 576px) and (max-width:800px){
+    .Login__image{
+        width: 400px;
+        height: 400px;
+        margin-top: 140px;
+        margin-left: -20px;
+    }
+    .Login__heading{
+        padding-top: 123px;
+        font-size: 31px;
+        margin-left: 10px;
+    }
+    .Login__Form{
+        padding-left: 0px;
+        padding-top: 50px;
+    }
+    .Login__span{
+        font-size: 12px;
+        line-height: 1.2;
+    }
+    .Login__SaveButton{
+        width: 100px;
+        margin-right: 15px;
+    }
+    .Login__SubmitButton{
+        width: 100px;
+    }
+    .Login__form-submit{
+        margin-top: 7px;
+        margin-left: 20%;
+    }
+    .Login__svg-column{
+        height: 100vh;
+    }
+}
+/*For medium and large devices*/
+@media(min-width:800px) and (max-width:1200px){
+    .Login__image{
+        width: 500px;
+        height: 500px;
+        margin-top:70px;
+        margin-left: 0px;
+    }
+    .Login__heading{
+        padding-top: 109px;
+        font-size: 34px;
+        margin-left: 15px;
+    }
+    .Login__Form{
+        padding-left: 5px;
+        padding-top: 40px;
+    }
+    .Login__span{
+        font-size: 14px;
+        line-height: 1.1;
+    }
+    .Login__SaveButton{
+        width: 130px;
+        margin-right: 20px;
+    }
+    .Login__SubmitButton{
+        width: 130px;
+    }
+    .Login__form-submit{
+        margin-left: 20%;
+        margin-top: 20px;
+    }
+    .Login__svg-column{
+        height: 100vh;
+    }
+}
