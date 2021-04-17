@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/uit-productivity-management-tool/static/css/main.ea523271.chunk.css",
+    "main.js": "/uit-productivity-management-tool/static/js/main.5e7e2346.chunk.js",
+    "main.js.map": "/uit-productivity-management-tool/static/js/main.5e7e2346.chunk.js.map",
+    "runtime-main.js": "/uit-productivity-management-tool/static/js/runtime-main.6df8dfbb.js",
+    "runtime-main.js.map": "/uit-productivity-management-tool/static/js/runtime-main.6df8dfbb.js.map",
+    "static/js/2.20f93077.chunk.js": "/uit-productivity-management-tool/static/js/2.20f93077.chunk.js",
+    "static/js/2.20f93077.chunk.js.map": "/uit-productivity-management-tool/static/js/2.20f93077.chunk.js.map",
+    "index.html": "/uit-productivity-management-tool/index.html",
+    "static/css/main.ea523271.chunk.css.map": "/uit-productivity-management-tool/static/css/main.ea523271.chunk.css.map",
+    "static/js/2.20f93077.chunk.js.LICENSE.txt": "/uit-productivity-management-tool/static/js/2.20f93077.chunk.js.LICENSE.txt",
+    "static/media/hands.34d2673d.svg": "/uit-productivity-management-tool/static/media/hands.34d2673d.svg",
+    "static/media/loginNew.7de4c841.png": "/uit-productivity-management-tool/static/media/loginNew.7de4c841.png",
+    "static/media/mainpage1.6bf8fc86.png": "/uit-productivity-management-tool/static/media/mainpage1.6bf8fc86.png",
+    "static/media/mainpage3.6773bd84.png": "/uit-productivity-management-tool/static/media/mainpage3.6773bd84.png",
+    "static/media/money.e082ce9f.svg": "/uit-productivity-management-tool/static/media/money.e082ce9f.svg",
+    "static/media/moneypot.a082f957.svg": "/uit-productivity-management-tool/static/media/moneypot.a082f957.svg",
+    "static/media/screen.91a31236.svg": "/uit-productivity-management-tool/static/media/screen.91a31236.svg",
+    "static/media/signup-svg.2bd3286d.svg": "/uit-productivity-management-tool/static/media/signup-svg.2bd3286d.svg",
+    "static/media/student.daaba219.png": "/uit-productivity-management-tool/static/media/student.daaba219.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6df8dfbb.js",
+    "static/js/2.20f93077.chunk.js",
+    "static/css/main.ea523271.chunk.css",
+    "static/js/main.5e7e2346.chunk.js"
+  ]
+}
