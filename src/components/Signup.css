@@ -4,6 +4,10 @@
     margin-top: 70px;
     margin-left: 0px;
 }
+.Signup__container{
+    padding-right: 0px;
+    padding-left: 0px;
+}
 .Signup__row{
     height: 100vh;
 } 

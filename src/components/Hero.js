@@ -2,6 +2,7 @@ import React from 'react';
 import './Hero.css';
 import student from "../images/student.png";
 import Features from "./Features.js";
+import About from "./About.js";
 import heroimage from "../svg/mainpage1.png";
 class Hero extends React.Component{
     render(){
@@ -29,6 +30,10 @@ class Hero extends React.Component{
                      
                   </div>
                   </div>
+                  <div id="about" className="Hero__about-page-scroll">
+                      <About />
+                  </div>
+
                   <div id="features" className="Hero__features-page-scroll">
                       <Features />
                   </div>

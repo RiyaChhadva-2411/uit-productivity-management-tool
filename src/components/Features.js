@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import money from "../svg/money.svg";
 import moneypot from "../svg/moneypot.svg";
 import screen from "../svg/screen.svg";
@@ -8,7 +8,7 @@ import Carousel from "react-spring-3d-carousel";
 import { v4 as uuid } from "uuid";
 import { config } from "react-spring";
 import "./Features.css"
-export default class Features extends Component {
+export default class Features extends React.Component {
   state = {
     goToSlide: 0,
     offsetRadius: 2,

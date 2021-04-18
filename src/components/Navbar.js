@@ -1,7 +1,6 @@
 import React from 'react';
 import "./Home.css";
-import login from "../images/login.png";
-import signup from "../images/signup.png";
+
 import "./Navbar.css";
 
 
@@ -20,7 +19,7 @@ export default class Navbar extends React.Component{
                     <a className="nav-link" href="/">Home<span className="sr-only">(current)</span></a>
                 </li>
                 <li className="nav-item Navbar__item">
-                    <a className="nav-link" href="#">About</a>
+                    <a className="nav-link" href="#about">About</a>
                 </li>
                 <li className="nav-item Navbar__item">
                     <a className="nav-link page-scroll" href="#features">Features</a>
@@ -29,14 +28,14 @@ export default class Navbar extends React.Component{
                     <a className="nav-link" href="#">Team</a>
                 </li>
                 <li className="nav-item Navbar__item-student-register">
-                    <a className="nav-link" href="/student-registration"><img src={signup} alt="register" className="Navbar__nav-svg" />Student Registration</a>
+                    <a className="nav-link" href="/student-registration">Student Registration</a>
                 </li>
                 
                 <li className="nav-item Navbar__item-signup">
-                    <a className="nav-link" href="/signup"><img src={signup} alt="sign" className="Navbar__nav-svg" />Sign up</a>
+                    <a className="nav-link" href="/signup">Sign up</a>
                 </li>
                 <li className="nav-item Navbar__item-login">
-                    <a className="nav-link" href="/login"><img src={login} alt="login" className="Navbar__nav-svg" /> Login</a>
+                    <a className="nav-link" href="/login">Login</a>
                 </li>
                 
             </ul>

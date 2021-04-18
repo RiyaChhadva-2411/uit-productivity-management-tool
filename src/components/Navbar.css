@@ -23,28 +23,34 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 15px;
-    padding-right: 2.5rem;
-    padding-left: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    background-color: #aaaaaa;
+    border-radius: 15px;
 }
 .Navbar__item-student-register{
     letter-spacing: 2px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+    padding-right: 1rem;
+    padding-left: 1rem;
     font-size: 15px;
+    background-color: #aaaaaa;
+    border-radius: 15px;
 }
 .Navbar__item-login{
     letter-spacing: 2px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 15px;
-    
+    background-color: #aaaaaa;
+    border-radius: 15px;
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
-.Navbar__nav-svg{
-    height: 20px;
-    width: 20px;
-    margin-right: 5px;
-   
-}
+
 /*For mobile use*/
 @media screen and (max-width: 576px){
     .Navbar__item{
@@ -59,10 +65,6 @@
     }
     .Navbar__item-login{
         font-size: 13px;
-    }
-    .Navbar__nav-svg{
-        height: 15px;
-        width: 15px;
     }
     .Navbar__logo{
         padding:1rem ;

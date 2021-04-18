@@ -6,6 +6,7 @@ import Navbar from "./Navbar.js";
 import Hero from "./Hero.js";
 import Features from "./Features.js";
 import StudentRegistration from "./StudentReg.js";
+import About from "./About.js";
 import {BrowserRouter, Route,Switch} from "react-router-dom";
 
 class Home extends React.Component{
@@ -17,7 +18,8 @@ class Home extends React.Component{
                      <Navbar />
                  </div>
                  <Switch>
-                     <Route exact path="/" component={Hero} />
+                      <Route exact path="/" component={Hero} />
+                      <Route exact path="/about" component={About} />
                      <Route exact path="/features" component={Features} />
                      <Route exact path="/student-registration" component={StudentRegistration} />
                      <Route exact path="/signup" component={Signup} />

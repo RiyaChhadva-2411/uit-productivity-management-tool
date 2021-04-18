@@ -1,0 +1,216 @@
+/*For desktop use*/
+.About__container{
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 80px;
+   background-color: #ccf2f4;
+}
+.About__heading{
+    padding-left: 6.5rem;
+    padding-top: 5rem;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.About__sub-heading{
+    padding-left: 6.5rem;
+    margin-top: 20px;
+}
+.About__question{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.About__paragraph{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+
+.About-column{
+    padding-left: 6.5rem;
+}
+.About-column-second{
+    padding-left: 6.5rem;
+    padding-top: 6.5rem;
+}
+.About__step-name{
+   font-family: 'Poppins', sans-serif;
+   text-transform: uppercase;
+   font-size: 25px;
+}
+.About__step-description{
+   font-family: 'Poppins', sans-serif;
+   font-size: 18px;
+   width: 500px;
+}
+.About__step-description-form{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    width: 490px;
+}
+.About__image{
+    width: 100px;
+    height: 100px;
+}
+.About__svg1{
+    margin-top: 15px;
+}
+.About__svg2{
+    margin-top: 5px;
+}
+.About__svg3{
+    margin-top: 7.5rem;
+    margin-left: 1rem;
+}
+.About__svg4{
+    margin-top: 7rem;
+    margin-left: 1rem;
+}
+/*For small devices*/
+@media screen and (max-width:576px){
+    .About__heading{
+        padding-left: 2rem;
+        font-size: 20px;
+    }
+    .About__sub-heading{
+        padding-left: 2rem;
+    }
+    .About__question{
+        font-size: 17px;
+    }
+    .About__paragraph{
+        font-size: 17px;
+    }
+    .About-column{
+        padding-left:2rem;
+    }
+    .About__step-name{
+        font-size: 20px;
+    }
+    .About__step-description{
+        font-size: 15px;
+        width: 200px;
+    }
+    .About__image{
+        width: 60px;
+        height: 60px;
+    }
+    .About__svg1{
+        margin-top: 34px;
+        margin-left: 30px;
+    }
+    .About__svg2{
+        margin-top: 64px;
+        margin-left: 30px;
+    }
+    .About__second{
+        margin-top: 30px;
+    }
+    .About__step-description-form{
+        width: 230px;
+        font-size: 15px;
+    }
+    .About-column-second{
+        padding-left: 2rem;
+        padding-top: 30px;
+    }
+    .About__svg3{
+        margin-top: 5.5rem;
+    }
+    .About__svg4{
+        margin-top: 6rem;
+    }
+}
+/*For small and medium devices*/
+@media(min-width: 576px) and (max-width:800px){
+    .About__heading{
+        padding-left: 3rem;
+        font-size: 27px;
+    }
+    .About__sub-heading{
+        padding-left: 3rem;
+        margin-top: 10px;
+    }
+    .About-column{
+        padding-left: 3rem;
+    }
+    .About-column-second{
+        padding-left: 3rem;
+        padding-top: 0rem;
+    }
+    .About__second{
+        margin-top: 30px;
+    }
+    .About__third{
+        margin-top: 50px;
+    }
+    .About__forth{
+        margin-top: 30px;
+    }
+    .About__step-description{
+        font-size: 16px;
+    }
+    .About__step-description-form{
+        font-size: 16px;
+    }
+    .About__step-name{
+        font-size: 20px;
+    }
+    .About__svg1{
+        margin-left: 40px;
+    }
+    .About__svg2{
+        margin-top: 47px;
+        margin-left: 40px;
+    }
+    .About__svg3{
+        margin-top: 4.5rem;
+        margin-left: 60px;
+    }
+    .About__svg4{
+        margin-top: 4rem;
+        margin-left: 60px;
+    }
+    .About__image{
+        width: 70px;
+        height: 70px;
+    }
+}
+/*For medium and large devices*/
+@media(min-width: 800px) and (max-width: 1200px){
+    .About__heading{
+        padding-left: 3rem;
+    }
+    .About__sub-heading{
+        padding-left: 3rem;
+        margin-top: 10px;
+    }
+    .About-column{
+        padding-left: 3rem;
+    }
+    .About-column-second{
+        padding-left:3rem;
+        padding-top: 30px;
+    }
+    .About__svg1{
+       margin-left: 100px;
+    }
+    .About__second{
+        margin-top: 20px;
+    }
+    .About__svg2{
+        margin-left: 100px;
+        margin-top: 30px;
+    }
+    .About__svg3{
+        margin-left: 120px;
+        margin-top: 50px;
+    }
+    .About__svg4{
+        margin-left: 110px;
+        margin-top: 50px;
+    }
+}
