@@ -18,18 +18,18 @@ class Signup extends React.Component{
                         <div className="Signup__heading">
                            Signup
                         </div>
-                        <form className="Signup__Form">
+                        <form method="post" action="https://vishwapmt.herokuapp.com/signup" className="Signup__Form">
                             <div className="form-row Signup__dmrow">
                             <div className="col-lg-4 col-xs-12 col-sm-4">
-                                <input type="text" className="form-control" title="*ENTER CHARACTER VALUES ONLY" pattern="[A-Za-z]{1,32}" name="studentFirstName" id="studentFirstName" placeholder=" " required />
+                                <input type="text" className="form-control" title="*ENTER CHARACTER VALUES ONLY" pattern="[A-Za-z]{1,32}" name="first_name" id="first_name" placeholder=" " required />
                                 <span>First Name</span>
                             </div>
                             <div className="col-lg-4 col-sm-4">
-                                    <input type="text" className="form-control" title="*ENTER CHARACTER VALUES ONLY" pattern="[A-Za-z]{1,32}" name="studentMiddleName" id="studentMiddleName" placeholder=" " required />
+                                    <input type="text" className="form-control" title="*ENTER CHARACTER VALUES ONLY" pattern="[A-Za-z]{1,32}" name="middle_name" id="middle_name" placeholder=" " required />
                                     <span>Middle Name</span>
                             </div>
                             <div className="col-lg-4 col-sm-4">
-                                    <input type="text" className="form-control" title="*ENTER CHARACTER VALUES ONLY" pattern="[A-Za-z]{1,32}" name="studentLastName" id="studentLastName" placeholder=" " required />
+                                    <input type="text" className="form-control" title="*ENTER CHARACTER VALUES ONLY" pattern="[A-Za-z]{1,32}" name="last_name" id="last_name" placeholder=" " required />
                                     <span>Last Name</span>
                                 </div>
                             </div>
@@ -38,15 +38,15 @@ class Signup extends React.Component{
 
                             <div className="form-row Signup__dmrow">
                                 <div className="col-lg-4 col-sm-4">
-                                    <input type="tel" title="*NUMBER SHOULD BE OF 10 DIGITS ONLY" pattern="[1-9]{1}[0-9]{9}" name="studentContactNo" id="studentContactNo" className="form-control" placeholder=" " required />
+                                    <input type="tel" title="*NUMBER SHOULD BE OF 10 DIGITS ONLY" pattern="[1-9]{1}[0-9]{9}" name="Phone_Number" id="Phone_Number" className="form-control" placeholder=" " required />
                                     <span>Mobile Number</span>
                                 </div>
-                                <div className="col-lg-4 col-sm-4">
+                                {/* <div className="col-lg-4 col-sm-4">
                                     <input type="tel" className="form-control" name="studentAlternateContactNo" id="studentAlternateContactNo" title="*NUMBER SHOULD BE OF 10 DIGITS ONLY" pattern="[1-9]{1}[0-9]{9}" placeholder=" " required />
                                     <span>Alternate Mobile Number</span>
-                                </div>
+                                </div> */}
                                 <div className="col-lg-4 col-sm-4">
-                                    <input type="email" className="studentEmailId" id="studentEmailId" className="form-control" placeholder=" " required  />
+                                    <input type="email" name="email" id="email" className="form-control" pattern="^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$" placeholder=" " required  />
                                     <span>Email Address</span>
                                 </div>
                             </div>
@@ -54,11 +54,11 @@ class Signup extends React.Component{
 
                             <div className="form-row Signup__dmrow">
                                 <div className="col-lg-4 col-sm-4">
-                                    <input type="password" className="studentPassword" id="studentPassword" className="form-control" placeholder=" " required  />
+                                    <input type="password"  id="password" name="password" title="*PASSWORD SHOULD CONTAIN MINIMUM EIGHT CHARACTERS, ATLEAST ONE LETTER, ONE NUMBER AND ONE SPECIAL CHARACTER" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$" className="form-control" placeholder=" " required  />
                                     <span>Enter Password</span>
                                 </div>
                                 <div className="col-lg-4 col-sm-4">
-                                    <input type="password" className="studentConfirmPassword" id="studentConfirmPassword" className="form-control" placeholder=" " required  />
+                                    <input type="password" name="password" id="password" title="*PASSWORD SHOULD CONTAIN MINIMUM EIGHT CHARACTERS, ATLEAST ONE LETTER, ONE NUMBER AND ONE SPECIAL CHARACTER" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$" className="form-control" placeholder=" " required  />
                                     <span>Confirm Password</span>
                                 </div>
                             </div>

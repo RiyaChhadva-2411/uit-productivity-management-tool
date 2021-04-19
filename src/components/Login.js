@@ -19,13 +19,13 @@ class Login extends React.Component{
                         <form className="Login__Form">
                             <div className="form-row Login__dmrow">
                             <div className="col-lg-4 col-xs-12 col-sm-4">
-                                <input type="text" className="form-control Login__form-control" title="*ENTER CHARACTER VALUES ONLY" pattern="[A-Za-z]{1,32}" name="studentFirstName" id="studentFirstName" placeholder=" " required />
-                                <span className="Login__span">Username</span>
+                                <input type="email" className="form-control Login__form-control" pattern="^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$" title="*ENTER THE VALID EMAIL ID" name="email" id="email" placeholder=" " required />
+                                <span className="Login__span">Email</span>
                             </div>
                             </div>
                             <div className="form-row Login__dmrow">
                                 <div className="col-lg-4 col-sm-4">
-                                    <input type="password" className="studentPassword" id="studentPassword" className="form-control Login__form-control" placeholder=" " required  />
+                                    <input type="password" name="password" id="password" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$" className="form-control Login__form-control" placeholder=" " required  />
                                     <span className="Login__span">Enter Password</span>
                                 </div>
                             </div>

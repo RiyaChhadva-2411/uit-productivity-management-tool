@@ -22,32 +22,32 @@ class StudentRegistration extends React.Component{
                         <form className="StudentReg__Form">
                            <div className="form-row Student__Form">
                                    <div className="Student__property">Subject 1:</div>
-                                   <input type="text" className="form-control Student__Subject" title="*ENTER CHARACTER VALUES ONLY" pattern="[A-Za-z]" placeholder=" " required />
+                                   <input type="text" name="subject_1" id="subject_1" className="form-control Student__Subject" title="*ENTER CHARACTER VALUES ONLY" pattern="[A-Za-z]" placeholder=" " required />
                           </div>
                           <div className="form-row Student__Form">
                               <div className="Student__property">Subject 2:</div>
-                              <input type="text" className="form-control Student__Subject" title="*ENTER CHARACTER VALUES ONLY" pattern="[A-Za-z]" placeholder=" " required />
+                              <input type="text" name="subject_2" id="subject_2" className="form-control Student__Subject" title="*ENTER CHARACTER VALUES ONLY" pattern="[A-Za-z]" placeholder=" " required />
                           </div>
 
                           <div className="form-row Student__Form">
                               <div className="Student__property">Subject 3:</div>
-                              <input type="text" className="form-control Student__Subject" title="*ENTER CHARACTER VALUES ONLY" pattern="[A-Za-z]" placeholder=" " required />
+                              <input type="text" name="subject_3" id="subject_3" className="form-control Student__Subject" title="*ENTER CHARACTER VALUES ONLY" pattern="[A-Za-z]" placeholder=" " required />
                           </div>
 
                           <div className="form-row Student__Form">
                               <div className="Student__property">Subject 4:</div>
-                              <input type="text" className="form-control Student__Subject" title="*ENTER CHARACTER VALUES ONLY" pattern="[A-Za-z]" placeholder=" " required />
+                              <input type="text" name="subject_4" id="subject_4" className="form-control Student__Subject" title="*ENTER CHARACTER VALUES ONLY" pattern="[A-Za-z]" placeholder=" " required />
                           </div>
 
                           <div className="form-row Student__Form">
                               <div className="Student__property">Subject 5:</div>
-                              <input type="text" className="form-control Student__Subject" title="*ENTER CHARACTER VALUES ONLY" pattern="[A-Za-z]" placeholder=" " required />
+                              <input type="text" name="subject_5" id="subject_5" className="form-control Student__Subject" title="*ENTER CHARACTER VALUES ONLY" pattern="[A-Za-z]" placeholder=" " required />
                           </div>
 
-                          <div className="form-row Student__Form">
+                          {/* <div className="form-row Student__Form">
                               <div className="Student__property">Subject 6:</div>
                               <input type="text" className="form-control Student__Subject" title="*ENTER CHARACTER VALUES ONLY" pattern="[A-Za-z]" placeholder=" " required />
-                          </div>
+                          </div> */}
 
                           <div className="Student__Subject-heading">
                               How much time do you wish to allot the above subjects?
@@ -55,33 +55,33 @@ class StudentRegistration extends React.Component{
                           <div className="Student__Time-allocation">
                           <div className="form-row Student__Time">
                                    <div className="Student__property">Time alloted to subject 1:</div>
-                                   <input type="tel" className="form-control Student__Subject-time" title="*ENTER INTEGER VALUES ONLY" pattern="[0-9]" placeholder=" " required />
+                                   <input type="tel" name="subjecttime_1" id="subjecttime_1" className="form-control Student__Subject-time" title="*ENTER INTEGER VALUES ONLY" pattern="[0-9]" placeholder=" " required />
                           </div>
 
                           <div className="form-row Student__Time">
                                    <div className="Student__property">Time alloted to subject 2:</div>
-                                   <input type="tel" className="form-control Student__Subject-time" title="*ENTER INTEGER VALUES ONLY" pattern="[0-9]" placeholder=" " required />
+                                   <input type="tel" name="subjecttime_2" id="subjecttime_2" className="form-control Student__Subject-time" title="*ENTER INTEGER VALUES ONLY" pattern="[0-9]" placeholder=" " required />
                           </div>
 
                           <div className="form-row Student__Time">
                                    <div className="Student__property">Time alloted to subject 3:</div>
-                                   <input type="tel" className="form-control Student__Subject-time" title="*ENTER INTEGER VALUES ONLY" pattern="[0-9]" placeholder=" " required />
+                                   <input type="tel" name="subjecttime_3" id="subjecttime_3" className="form-control Student__Subject-time" title="*ENTER INTEGER VALUES ONLY" pattern="[0-9]" placeholder=" " required />
                           </div>
 
                           <div className="form-row Student__Time">
                                    <div className="Student__property">Time alloted to subject 4:</div>
-                                   <input type="tel" className="form-control Student__Subject-time" title="*ENTER INTEGER VALUES ONLY" pattern="[0-9]" placeholder=" " required />
+                                   <input type="tel" name="subjecttime_4" id="subjecttime_4" className="form-control Student__Subject-time" title="*ENTER INTEGER VALUES ONLY" pattern="[0-9]" placeholder=" " required />
                           </div>
 
                           <div className="form-row Student__Time">
                                    <div className="Student__property">Time alloted to subject 5:</div>
-                                   <input type="tel" className="form-control Student__Subject-time" title="*ENTER INTEGER VALUES ONLY" pattern="[0-9]" placeholder=" " required />
+                                   <input type="tel" name="subjecttime_5" id="subjecttime_5" className="form-control Student__Subject-time" title="*ENTER INTEGER VALUES ONLY" pattern="[0-9]" placeholder=" " required />
                           </div>
 
-                          <div className="form-row Student__Time">
+                          {/* <div className="form-row Student__Time">
                                    <div className="Student__property">Time alloted to subject 6:</div>
                                    <input type="tel" className="form-control Student__Subject-time" title="*ENTER INTEGER VALUES ONLY" pattern="[0-9]" placeholder=" " required />
-                          </div>
+                          </div> */}
                           </div>
 
 
